@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Grades</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="container">
+		<p class="title">MY GRADES</p>
+		<p class="description">Coloque suas notas aqui para calcularmos seu desempenho:</p>
+
+		<div class="scoreArea">
+			<p class="text">Primeira nota: <input type="number" id="number-input1" class="numberInput" name="score" placeholder="digite sua nota" min="0" max="10"></p>
+
+			<p class="text">Segunda nota: <input type="number" id="number-input2" class="numberInput" name="score" placeholder="digite sua nota" min="0" max="10"></p>
+
+			<p class="text">Terceira nota: <input type="number" id="number-input3" class="numberInput" name="score" placeholder="digite sua nota" min="0" max="10"></p>
+
+			<p class="text">Quarta nota: <input type="number" id="number-input4" class="numberInput" name="score" placeholder="digite sua nota" min="0" max="10"></p>
+		</div>
+		<div class="buttonArea">
+			<button class="button" onclick="calcularNotas()">Calcular media</button>
+		</div>
+		<p id="resultado"></p>
+		
+	</div>
+
+	<script type="text/javascript" src="main.js"></script>
+
+
+</body>
+</html>
